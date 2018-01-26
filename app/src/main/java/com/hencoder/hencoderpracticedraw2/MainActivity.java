@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     List<PageModel> pageModels = new ArrayList<>();
 
     {
+        pageModels.add(new PageModel(R.layout.video_download_progress_bar, R.string.video_download_progress_bar, R.layout.video_download_progress_bar));
         pageModels.add(new PageModel(R.layout.exp1_xfermode_view, R.string.exp1_xfermode, R.layout.exp1_xfermode_view));
         pageModels.add(new PageModel(R.layout.test_xfermode_view, R.string.title_test_xfermode_view, R.layout.test_xfermode_view));
         pageModels.add(new PageModel(R.layout.sample_linear_gradient, R.string.title_linear_gradient, R.layout.practice_linear_gradient));

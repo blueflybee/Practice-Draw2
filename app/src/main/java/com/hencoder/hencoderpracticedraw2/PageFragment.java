@@ -37,7 +37,9 @@ public class PageFragment extends Fragment {
     practiceStub.setLayoutResource(practiceLayoutRes);
     practiceStub.inflate();
 
-    if (sampleLayoutRes == R.layout.test_xfermode_view || sampleLayoutRes == R.layout.exp1_xfermode_view) {
+    if (sampleLayoutRes == R.layout.test_xfermode_view
+        || sampleLayoutRes == R.layout.exp1_xfermode_view
+        || sampleLayoutRes == R.layout.video_download_progress_bar) {
       view.findViewById(R.id.rl_practice).setVisibility(View.GONE);
     }
 
